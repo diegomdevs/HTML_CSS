@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Header {
+  background-color: plum;
+  height: 10%;
+  width: 100%;
+}
+.Header nav {
+  height: 100%;
+  width: 100%;
+}
+.Header nav figure, ul {
+  display: inline-block;
+}
+.Header nav ul {
+  position: absolute;
+  right: 0;
+  color: white;
+}
+.Header nav ul > li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.Main {
+  height: 80%;
+  width: 100%;
+}
+.Main-Ads, .Main-Principal {
+  display: inline-block;
+}
+.Main-Ads {
+  height: 100%;
+  width: 30%;
+  background-color: palevioletred;
+}
+.Main-Ads section {
+  background-color: purple;
+  height: 10%;
+  width: 70%;
+  border-radius: 1rem;
+  margin: 15% 50% 27% 15%;
+}
+.Main-Principal {
+  position: absolute;
+  right: 0;
+  height: 80%;
+  width: 70%;
+  background-color: bisque;
+}
+.Footer {
+  height: 10%;
+  width: 100%;
+  background-color:black;
+  color: white;
+}
+.Footer p {
+  display: inline-block;
+}
+.Footer p:last-child {
+  position: absolute;
+  right: 0px;
+}
+

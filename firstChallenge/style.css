@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: blueviolet;
+  color: white;
+}
+.Header-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  text-decoration: underline;
+}
+.Main-Container img {
+  border-radius: 50px;
+}

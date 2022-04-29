@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  font-size: 1.1rem;
+}
+/* Header */
+.Header {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.3rem solid greenyellow;
+}
+.Header-Logo {
+  height: 70%;
+  width: 100%;
+}
+.Header-Logo__Figure {
+  height: 100%;
+  width: 100%;
+}
+.Header-Logo__Img {
+  height: 100%;
+  width: 100%;
+}
+.Header-Nav {
+  height: 30%;
+  width: 100%;
+}
+.Header-Nav__Container {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10%;
+
+}
+/* Main */
+.Main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.Main-Principal {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 0.3rem solid greenyellow;
+  padding: 5% 0;
+}
+.Main-Principal__Platzi-Team {
+  height: 100%;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.Main-Principal__Platzi-Team__Img {
+  height: 100%;
+  width: 100%;
+}
+.Main-Your-Courses {
+  height: 30%;
+  font-size: 2rem;
+  padding: 5% 5%;
+}
+.Main-Your-Courses section {
+  height: 80%;
+}
+.Main-Your-Courses section > article {
+  background-color: greenyellow;
+  height: 25%;
+}
+/* Footer */
+
+.Footer {
+  border-top: 0.3rem solid greenyellow;
+  height: 5vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
+}

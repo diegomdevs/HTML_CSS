@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  font-size: 2rem;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 10rem;
+}
+main article {
+  border-radius: 3rem;
+  text-align: center;
+}
+main article:first-child {
+  background-color: red;
+  border: 0.3rem solid black;
+  height: 10vh;
+  max-height: 10vh;
+  min-height: 10vh;
+  max-width: 20vw;
+  min-width: 20vw;
+  padding: 3vh;
+  width: 20vw;
+  position: absolute;
+  transform: translate(200%, -50%);
+}
+main article:last-child {
+  background-color: gainsboro;
+  border: gray 0.3rem solid;
+  height: 40vh;
+  max-height: 40vh;
+  min-height: 40vh;
+  max-width: 50vh;
+  min-width: 50vh;
+  margin: 0 auto;
+  width: 50vw;
+  padding: 10vh;
+}
